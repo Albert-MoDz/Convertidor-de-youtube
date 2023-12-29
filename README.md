@@ -10,6 +10,21 @@ La aplicación permite descargar videos y listas de reproducción de YouTube y c
 Para lograr esto, el código utiliza las bibliotecas Pytube para descargar videos de YouTube, Pydub para la manipulación de archivos 
 de audio y la conversión de formatos, y threading para manejar la descarga de listas de reproducción de manera concurrente.
 
+Entorno virtual:
+
+# Crear el entorno virtual
+python -m venv venv
+
+# Activar el entorno virtual (en Windows)
+.\venv\Scripts\activate
+
+# Activar el entorno virtual (en sistemas basados en Unix)
+source venv/bin/activate
+
+# Instalar las dependencias desde el archivo requirements.txt
+pip install -r requirements.txt
+
+
 ### Estructura del Código:
 
 1. **Importaciones:**
