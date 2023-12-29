@@ -24,6 +24,14 @@ source venv/bin/activate
 # Instalar las dependencias desde el archivo requirements.txt
 pip install -r requirements.txt
 
+# dentro de venv crear la carpeta app y pegar el codigo ahi
+
+# para compilar el codigo
+
+pip install pyinstaller
+
+pyinstaller --onefile "Nombre del archivo".py
+
 
 ### Estructura del Código:
 
